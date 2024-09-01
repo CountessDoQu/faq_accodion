@@ -6,7 +6,7 @@
 body {
     background-color: rgba(var(--purple), 0.1);
     background-image: url(images/background-pattern-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     font-family: 'Work Sans', 'sans-serif';
 }
 
