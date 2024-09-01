@@ -5,7 +5,7 @@
 
 body {
     background-color: rgba(var(--purple), 0.1);
-    background-image: url(../images/background-pattern-desktop.svg);
+    background-image: url(images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
     font-family: 'Work Sans', 'sans-serif';
 }
@@ -32,7 +32,7 @@ h1 {
 h1::before {
     width: 18px;
     height: 18px;
-    content: url(../images/icon-star.svg);
+    content: url(images/icon-star.svg);
     padding-right: 20px;
 }
 
@@ -50,13 +50,13 @@ h1::before {
 }
 
 .question::after {
-    content: url(../images/icon-plus.svg);   
+    content: url(images/icon-plus.svg);   
     position: absolute; 
     right: 15px;
 }
 
 .active::after {
-    content: url(../images/icon-minus.svg);  
+    content: url(images/icon-minus.svg);  
 }
 
 .answer {
